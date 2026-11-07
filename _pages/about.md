@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: "Anna Syahrani"
 author_profile: true
 ---
 
