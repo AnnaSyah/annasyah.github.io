@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Anna Syahrani, S.T., M.Eng."
+title: "Anna Syahrani, M.Eng."
 author_profile: true
 ---
 
