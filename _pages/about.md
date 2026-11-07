@@ -1,3 +1,9 @@
+---
+permalink: /
+title: "About me"
+author_profile: true
+---
+
 Anna Syahrani is a lecturer in the Department of Informatics Engineering at Institut Teknologi Padang, Indonesia. Her research interests include Context-Aware Computing and ICT for Society, where she explores and develops intelligent systems that leverage context-aware computing and machine learning to address societal challenges.
 
 She participated in a lecturer internship program at the Department of Electrical Engineering and Information Technology, Universitas Gadjah Mada (UGM), in 2022, supported by the Kampus Merdeka Competition Program (PKKM), Ministry of Education, Culture, Research, and Technology of the Republic of Indonesia.
