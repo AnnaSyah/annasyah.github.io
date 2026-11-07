@@ -36,3 +36,15 @@
     "layout/archive",
     "layout/sidebar"
 ;
+
+/* Perbaikan Tampilan Judul Website di Navigasi Atas */
+.site-title {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+.site-title:hover {
+  color: #fff !important;
+  text-decoration: underline !important;
+  opacity: 0.85;
+}
