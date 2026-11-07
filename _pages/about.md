@@ -5,8 +5,6 @@ permalink: /
 author_profile: true
 ---
 
-# Anna Syahrani is a lecturer in the Department of Informatics Engineering at Institut Teknologi Padang, Indonesia. Her research interests include Context-Aware Computing and ICT for Society, where she explores and develops intelligent systems that leverage context-aware computing and machine learning to address societal challenges.
-
 Anna Syahrani is a lecturer in the Department of Informatics Engineering at Institut Teknologi Padang, Indonesia. Her research interests include <span style="color: inherit; text-decoration: none;">Context-Aware Computing</span> and <span style="color: inherit; text-decoration: none;">ICT for Society</span>, where she explores and develops intelligent systems that leverage context-aware computing and machine learning to address societal challenges.
 
 
