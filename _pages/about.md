@@ -1,6 +1,7 @@
 ---
-permalink: /
+layout: archive
 title: "Anna Syahrani, M.Eng."
+permalink: /annasyahrani,m.eng./
 author_profile: true
 ---
 
