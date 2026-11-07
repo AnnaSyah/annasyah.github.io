@@ -1,36 +1,27 @@
 ---
-layout: archive
+layout: page
 title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+All listed publications are aimed to disseminate research and scholarly technical reports. For more recent and updated list of publications, please visit my Google Scholar profile.
 
-{% include base_path %}
+# Journal articles
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+### Published articles in international/national journals
+1. **A. Syahrani**, Nama Co-Author, "Judul Jurnal Ilmiah Pertama Anda", *Nama Jurnal Terbit*, Vol. 1, No. 2, pp. 100-110, 2026 (IF: 3.5).
+2. Nama Author Lain, **A. Syahrani**, "Judul Jurnal Ilmiah Kedua Anda", *Nama Jurnal Internasional*, Vol. 4, No. 1, pp. 25-35, 2025.
 
+### Manuscript under review / submitted
+1. **A. Syahrani**, "Judul Penelitian yang Sedang Ditinjau", submitted to *IEEE Access* (2026).
 
+---
 
+# Conference papers
+
+### 2026
+1. **A. Syahrani**, Nama Teman, "Judul Makalah Seminar Internasional Anda", in *Proceeding of International Conference on Computer Science (ICCS)*, October 12-14, 2026, Padang, Indonesia, pp. 1-6.
+
+### 2025
+1. Nama Teman, **A. Syahrani**, "Judul Presentasi Konferensi Tahun Lalu", in *Proceedings of Seminar Nasional Teknologi Informasi*, Agustus 5-6, 2025, Jakarta, Indonesia, pp. 45-50.
