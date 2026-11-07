@@ -41,7 +41,7 @@ author:
   orcid            : "https://orcid.org/0000-0001-5146-1868"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : "https://www.scopus.com/authid/detail.uri?authorId=56596639800"
   zotero           : # URL
