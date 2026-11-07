@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: "Anna Syahrani, M.Eng."
 permalink: /
 author_profile: true
