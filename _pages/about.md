@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Anna Syahrani, M.Eng."
-permalink: /annasyahrani,m.eng./
+permalink: /
 author_profile: true
 ---
 
