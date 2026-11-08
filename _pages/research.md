@@ -5,16 +5,81 @@ permalink: /research/
 author_profile: true
 ---
 
-Our research areas focus on Context-aware Computing, Ambient Intelligence, and Information and Communication Technology (ICT) for Society. We aim to leverage intelligent systems to build adaptive environments, optimize user interactions, and solve real-world community challenges through technology.
+My research interests focus on **Context-Aware Computing** and **ICT for Society**. My work explores the development and application of intelligent systems that utilize contextual information, pervasive technologies, and machine learning to address practical challenges in society.
 
-## :white_check_mark: Context-aware Systems and Ambient Intelligence
+My research activities cover several application domains, including energy-efficient buildings, location-based services, environmental monitoring, smart agriculture, and data-driven decision support systems.
 
-We are working on developing smart environments that can sense and adapt to human behavior and situational context. By leveraging Internet of Things (IoT) sensors, mobile data, and machine learning models, our research explores how computing systems can proactively assist users without explicit human interventions. Our main focus is not only on architectural efficiency but also on making context-aware algorithms lightweight enough to run smoothly on edge devices and consumer smartphones.
+## Research Areas
 
-## :white_check_mark: ICT for Society and Digital Inclusion
+### :gear: Context-Aware Computing
+Exploring context-aware systems that utilize information about their surrounding environments to support intelligent services and improve system responsiveness. This area includes pervasive sensing, wireless sensor networks, location-based services, and context-aware applications.
 
-Technology works best when it directly empowers the community. This research cluster focuses on designing, developing, and evaluating digital solutions tailored for social development, public education, and digital inclusion. We analyze how different demographics interact with local platforms and build framework models to optimize user experience (UX) for public services. Our final goal is to create sustainable, user-friendly applications that bridge the digital divide in society.
+### :earth_asia: ICT for Society
+Exploring the application of information technology to address practical challenges in society. Research activities in this area include environmental monitoring, flood preparedness, healthcare support, smart agriculture, and the development of information systems for public and organizational needs.
 
-## :white_check_mark: Human-Centered Data Analytics in Smart Environments
+### :brain: Intelligent Systems and Machine Learning
+Exploring data-driven approaches and machine learning techniques to develop intelligent systems for classification, prediction, pattern recognition, and decision support across different application domains.
 
-Most modern tracking and analytics tools handle vast streams of data, but translating them into actionable, human-centric insights remains a challenge. Our team sets out to build adaptive models that analyze time-series behavioral data in real-time. By exploring visual attention patterns, mobile usage metrics, and environmental feedback, we create responsive frameworks that allow systems to predict user needs accurately, laying the groundwork for smarter and more supportive digital ecosystems.
+---
+
+## Selected Research Projects
+
+### 1. Machine Learning-Based Flood Risk Scoring Model
+* **Timeline:** 2026
+* **Role:** Principal Investigator
+
+This research focuses on developing a flood risk scoring model using atmospheric data from the Indonesian Agency for Meteorology, Climatology, and Geophysics (BMKG). Machine learning approaches are applied to support flood risk assessment.
+
+* **Research Focus:** Machine Learning, Environmental Data, Flood Risk Assessment, ICT for Society.
+
+<br>
+
+### 2. Early Prediction of Chemotherapy Side-Effect Severity in Children with Cancer
+* **Timeline:** 2026
+* **Role:** Research Team Member
+
+This research focuses on developing an early prediction model for the severity of chemotherapy side effects in children with cancer using machine learning approaches.
+
+* **Research Focus:** Machine Learning, Predictive Modeling, Healthcare Applications.
+
+<br>
+
+### 3. Machine Learning-Based Tomato Disease Identification
+* **Timeline:** 2025
+* **Role:** Research Team Member
+
+This research focused on developing a tomato disease identification model using a combination of color and texture features with machine learning techniques.
+
+* **Research Focus:** Machine Learning, Image Processing, Feature Extraction, Agricultural Applications.
+
+<br>
+
+### 4. ARFindGO: Location-Based Information and User Interface Design
+* **Timeline:** 2022
+* **Role:** Principal Investigator
+
+This research involved the design of ARFindGO to present location-based information using GPS tracking. It also covered user interface design using the User-Centered Design (UCD) method.
+
+* **Research Focus:** Location-Based Services, Mobile Applications, User-Centered Design, Augmented Reality.
+
+<br>
+
+### 5. GPS-Based Tracking for ARmaps
+* **Timeline:** 2017
+* **Role:** Principal Investigator
+
+This research focused on applying GPS-based tracking methods to the ARmaps application. The work also explored augmented reality visualization for directional guidance based on real environments and real-world camera views.
+
+* **Research Focus:** Mobile Computing, GPS-Based Tracking, Augmented Reality.
+
+<br>
+
+### 6. Smart Building for Energy Saving in Indonesia (SuvI)
+* **Timeline:** 2013–2015 
+* **Role:** Research Collaboration
+* **Partnership:** Department of Electrical Engineering and Information Technology, Universitas Gadjah Mada, Indonesia, and the University of Groningen, the Netherlands.
+
+The project focused on developing an energy-efficient building system using pervasive sensing and context-aware technologies. My involvement was part of my master's thesis research, entitled *Development of a WSAN-Based Electronic Control System Prototype for Office Building Energy Efficiency*.
+
+* **Research Focus:** Pervasive Computing, Context-Aware Systems, Wireless Sensor and Actuator Networks (WSAN), Energy Efficiency.
+
