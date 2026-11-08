@@ -8,7 +8,25 @@
           <li class="masthead__menu-item masthead__menu-item--lg persist {% if page.url == '/' or page.url == '/index.html' %}selected{% endif %}">
             <a href="{{ base_path }}/">{{ site.title }}</a>
           </li>
+          {% comment %}
           {% for link in site.data.navigation.main %}
+          {% endcomment %}
+          {% for link in site.data.navigation.main %}
+            {% if link.children %}
+              <li class="masthead__menu-item dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="{{ link.url | relative_url }}">{{ link.title }} <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  {% for child in link.children %}
+                    <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+                  {% endfor %}
+                </ul>
+              </li>
+            {% else %}
+              <li class="masthead__menu-item">
+                <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
             {% else %}
