@@ -30,3 +30,8 @@ main:
     
   - title: "Services"
     url: /services/
+    children:
+      - title: "Partners"
+        url: /services/partners/
+      - title: "Technical activities"
+        url: /services/technical-activities/
