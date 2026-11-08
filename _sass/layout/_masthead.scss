@@ -79,16 +79,3 @@
   border-bottom: 2px solid var(--global-text-color);
   /* No need to repeat pointer-events and cursor here */
 }
-
-/* Menghilangkan garis bawah pada judul utama situs di navbar */
-.masthead__menu-item.site-title,
-.site-title,
-a[href="/"] {
-  text-decoration: none !important;
-  border-bottom: none !important;
-  box-shadow: none !important;
-
-  &::after {
-    display: none !important;
-  }
-}
