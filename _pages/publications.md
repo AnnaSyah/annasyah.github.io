@@ -8,10 +8,10 @@ author_profile: true
 This page presents my scholarly publications, including journal articles, conference papers, and academic books. My publications cover various topics in Informatics and Information Technology, including context-aware computing, pervasive technologies, mobile applications, augmented reality, machine learning, data analytics, information systems, and user experience.
 
 For the most recent publication records and citation metrics, please refer to my academic profiles:
-* [**Google Scholar**](https://google.com) 
-* [**Scopus**](https://scopus.com)
-* [**SINTA**](https://kemdikbud.go.id) 
-* [**ResearchGate**](https://researchgate.net)
+* [**Google Scholar**](https://scholar.google.com/citations?hl=id&authuser=1&user=apBZBBYAAAAJ)
+* [**Scopus**](https://www.scopus.com/authid/detail.uri?authorId=56596639800)
+* [**SINTA**](https://sinta.kemdiktisaintek.go.id/authors/profile/5977484)
+* [**ResearchGate**](https://www.researchgate.net/profile/Anna-Syahrani)
 
 ---
 
