@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Intellectual Property Rights"
+title: "IP Rights"
 permalink: /ipr/
 author_profile: true
 ---
