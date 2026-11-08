@@ -11,13 +11,13 @@ My research activities cover several application domains, including energy-effic
 
 ## Research Areas
 
-### :gear: Context-Aware Computing
+### ❖ Context-Aware Computing
 Exploring context-aware systems that utilize information about their surrounding environments to support intelligent services and improve system responsiveness. This area includes pervasive sensing, wireless sensor networks, location-based services, and context-aware applications.
 
-### :earth_asia: ICT for Society
+### ❖ ICT for Society
 Exploring the application of information technology to address practical challenges in society. Research activities in this area include environmental monitoring, flood preparedness, healthcare support, smart agriculture, and the development of information systems for public and organizational needs.
 
-### :brain: Intelligent Systems and Machine Learning
+### ❖ Intelligent Systems and Machine Learning
 Exploring data-driven approaches and machine learning techniques to develop intelligent systems for classification, prediction, pattern recognition, and decision support across different application domains.
 
 ---
@@ -82,4 +82,3 @@ This research focused on applying GPS-based tracking methods to the ARmaps appli
 The project focused on developing an energy-efficient building system using pervasive sensing and context-aware technologies. My involvement was part of my master's thesis research, entitled *Development of a WSAN-Based Electronic Control System Prototype for Office Building Energy Efficiency*.
 
 * **Research Focus:** Pervasive Computing, Context-Aware Systems, Wireless Sensor and Actuator Networks (WSAN), Energy Efficiency.
-
