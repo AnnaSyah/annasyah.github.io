@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "IP Rights"
-permalink: /ipr/
+permalink: /ip-rights/
 author_profile: true
 ---
 
