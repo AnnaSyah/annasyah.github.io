@@ -45,7 +45,6 @@
 }
 
 .masthead__menu {
-
   ul {
     margin: 0;
     padding: 0;
@@ -63,113 +62,68 @@
   &--lg {
     padding-right: 2em;
     font-weight: 700;
-  }
-}
-
-.masthead__menu-item.selected a {
-  color: var(--global-text-color);
-  font-weight: 700;
-  border-bottom: 2px solid var(--global-text-color);
-  pointer-events: none; /* Move this here */
-  cursor: default; /* Move this here too */
-}
-
-.masthead__menu-item.selected a:hover {
-  color: var(--global-text-color);
-  border-bottom: 2px solid var(--global-text-color);
-  /* No need to repeat pointer-events and cursor here */
-}
-
-
-/* ==========================================================================
-   INTERAKTIF DROPDOWN HOVER (LECTURES)
-   ========================================================================== */
-
-/* Pastikan elemen pembungkus menu berposisi relatif */
-.masthead__menu-item.dropdown {
-  position: relative;
-  display: inline-block;
-
-  /* Saat kursor ditaruh di menu induk (Lectures), tampilkan sub-menunya */
-  &:hover .dropdown-menu {
-    display: block;
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-  }
-}
-
-/* Sembunyikan dan posisikan kotak sub-menu (Invited & Regular) secara bawaan */
-.dropdown-menu {
-  display: none;
-  position: absolute;
-  top: 100%; /* Muncul tepat di bawah teks Lectures */
-  left: 0;
-  min-width: 140px;
-  background-color: var(--global-theme-bg, #ffffff); /* Menyesuaikan tema gelap/terang */
-  border: 1px solid var(--global-border-color, #e4e4e4);
-  border-radius: 4px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-  padding: 5px 0;
-  margin: 0;
-  list-style: none;
-  z-index: 999;
-  
-  /* Efek transisi halus saat muncul (Opsional) */
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(10px);
-  transition: all 0.2s ease;
-
-  /* Mengatur tampilan baris tautan di dalam kotak sub-menu */
-  li {
-    display: block;
-    width: 100%;
-    padding: 0;
-    margin: 0;
+    
+    /* ==========================================================================
+       MODIFIKASI KHUSUS JUDUL UTAMA (NAVBAR KIRI)
+       ========================================================================== */
+    &.selected a {
+      border-bottom: none !important; /* Hapus garis permanen saat aktif */
+      pointer-events: auto !important; /* Mengembalikan fungsi klik agar tetap bisa diklik */
+      cursor: pointer !important; /* Mengubah kursor kembali menjadi ikon link */
+    }
 
     a {
-      display: block;
-      padding: 8px 16px;
-      color: var(--global-text-color, #333333) !important;
+      display: inline-block;
+      position: relative;
+      padding-bottom: 4px;
       text-decoration: none !important;
-      font-size: 0.9em;
-      text-align: left;
-      border-bottom: none !important; /* Memastikan tidak ada garis bawah */
-      box-shadow: none !important;
 
-      /* Efek saat sub-menu di-highlight kursor */
-      &:hover {
-        background-color: var(--global-border-color, #f0f0f0);
-        color: var(--global-link-color-hover, #0056b3) !important;
+      /* Membuat elemen garis bawah animasi */
+      &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: var(--global-text-color, #333); /* Warna garis mengikuti teks */
+        transform: scaleX(0);
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+      }
+
+      /* Efek Hover Animasi Garis */
+      &:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
       }
     }
   }
 }
 
-/* Menghilangkan tanda panah kecil jika tidak diperlukan */
-.caret {
-  display: inline-block;
-  width: 0;
-  height: 0;
-  margin-left: 2px;
-  vertical-align: middle;
-  border-top: 4px dashed;
-  border-top: 4px solid\9;
-  border-right: 4px solid transparent;
-  border-left: 4px solid transparent;
+/* MODIFIKASI: Efek garis kaku hanya berlaku untuk menu selain Judul Utama */
+.masthead__menu-item.selected:not(.masthead__menu-item--lg) a {
+  color: var(--global-text-color);
+  font-weight: 700;
+  border-bottom: 2px solid var(--global-text-color);
+  pointer-events: none; 
+  cursor: default; 
 }
 
+.masthead__menu-item.selected:not(.masthead__menu-item--lg) a:hover {
+  color: var(--global-text-color);
+  border-bottom: 2px solid var(--global-text-color);
+}
+
+
 /* ==========================================================================
-   INTERAKTIF DROPDOWN HOVER (SERVICES)
+   INTERAKTIF DROPDOWN HOVER (LECTURES & SERVICES GABUNGAN)
    ========================================================================== */
 
-/* Pastikan elemen pembungkus menu berposisi relatif */
 .masthead__menu-item.dropdown {
   position: relative;
   display: inline-block;
 
-  /* Saat kursor diarahkan ke menu induk, tampilkan sub-menunya */
   &:hover .dropdown-menu {
     display: block;
     opacity: 1;
@@ -178,14 +132,13 @@
   }
 }
 
-/* Sembunyikan dan posisikan kotak sub-menu secara bawaan */
 .dropdown-menu {
   display: none;
   position: absolute;
-  top: 100%; /* Muncul tepat di bawah menu utama */
+  top: 100%; 
   left: 0;
-  min-width: 160px; /* Diperlebar sedikit agar teks "Technical activities" tidak terpotong */
-  background-color: var(--global-theme-bg, #ffffff); /* Menyesuaikan tema gelap/terang */
+  min-width: 160px; 
+  background-color: var(--global-theme-bg, #ffffff); 
   border: 1px solid var(--global-border-color, #e4e4e4);
   border-radius: 4px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
@@ -194,13 +147,11 @@
   list-style: none;
   z-index: 999;
   
-  /* Efek transisi halus saat muncul */
   opacity: 0;
   visibility: hidden;
   transform: translateY(10px);
   transition: all 0.2s ease;
 
-  /* Mengatur tampilan baris tautan di dalam kotak sub-menu */
   li {
     display: block;
     width: 100%;
@@ -217,7 +168,6 @@
       border-bottom: none !important; 
       box-shadow: none !important;
 
-      /* Efek saat sub-menu di-highlight kursor */
       &:hover {
         background-color: var(--global-border-color, #f0f0f0);
         color: var(--global-link-color-hover, #0056b3) !important;
@@ -226,7 +176,6 @@
   }
 }
 
-/* Menghilangkan tanda panah kecil jika tidak diperlukan */
 .caret {
   display: inline-block;
   width: 0;
