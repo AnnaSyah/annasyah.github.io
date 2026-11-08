@@ -123,7 +123,7 @@
 }
 
 /* ==========================================================================
-   PERBAIKAN FINAL: INTERAKTIF DROPDOWN HOVER HORIZONTAL (DOCKING POSISI & TEMA GELAP)
+   PERBAIKAN SINKRONISASI TEMA DROPDOWN (GAYA PROF. SUNU)
    ========================================================================== */
 
 .greedy-nav .visible-links {
@@ -132,7 +132,6 @@
   align-items: center;
 }
 
-/* Mengunci posisi kontainer menu utama secara relatif */
 .masthead__menu-item.dropdown {
   position: relative !important;
   display: inline-block !important;
@@ -145,22 +144,20 @@
   }
 }
 
-/* Desain kotak sub-menu melayang mandiri */
+/* Desain kotak sub-menu melayang */
 .dropdown-menu {
   display: none !important;
   position: absolute !important;
   top: 100% !important;
-  
-  /* PERBAIKAN POSISI: Mendorong posisi dropdown agar rata kanan terhadap menu induknya */
   right: 0 !important; 
   left: auto !important; 
   white-space: nowrap !important;
   
-  /* PERBAIKAN TEMA GELAP: Menggunakan variabel background-color murni dari tema */
-  background: var(--background-color, #ffffff) !important; 
+  /* SOLUSI UTAMA: Menggunakan variabel SCSS inti agar sinkron saat tombol tema diklik */
+  background-color: $background-color !important; 
   border: 1px solid var(--global-border-color, #e4e4e4) !important;
   border-radius: 4px !important;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25) !important;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3) !important;
   padding: 4px 6px !important;
   margin: 4px 0 0 0 !important;
   list-style: none !important;
